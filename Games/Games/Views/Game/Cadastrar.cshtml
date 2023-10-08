@@ -1,0 +1,19 @@
+﻿@model Game
+@{
+    ViewData["Title"] = "Cadastrar";
+}
+
+<h1>Cadastrar</h1>
+
+@if (TempData["mensagem"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["mensagem"]
+    </div>
+}
+
+<a asp-action="index">Games</a>
+<form asp-action="cadastrar">
+    <partial name="_Form" />
+    <button class="btn btn-outline-primary">Cadastrar</button>
+</form>

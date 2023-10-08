@@ -1,0 +1,18 @@
+﻿@model Game
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h1>Editar</h1>
+
+@if (TempData["mensagem"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["mensagem"]
+    </div>
+}
+
+<form asp-action="editar">
+    <partial name="_Form" />
+    <button class="btn btn-outline-primary">Editar</button>
+</form>
