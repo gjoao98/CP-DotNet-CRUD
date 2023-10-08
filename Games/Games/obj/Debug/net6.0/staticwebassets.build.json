@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gTusN8p8SZOphl/n0r2F6EdN1/MptgLwH4b+SZ7O1OM=",
+  "Hash": "EHzJrpV8L/HGbaYJBwilT4k1Ts+B+/EKXSeRzymkCLM=",
   "Source": "Games",
   "BasePath": "_content/Games",
   "Mode": "Default",
@@ -68,6 +68,40 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\del.png",
+      "SourceId": "Games",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\",
+      "BasePath": "_content/Games",
+      "RelativePath": "del.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\del.png"
+    },
+    {
+      "Identity": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\edit.png",
+      "SourceId": "Games",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\",
+      "BasePath": "_content/Games",
+      "RelativePath": "edit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\edit.png"
+    },
+    {
       "Identity": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\favicon.ico",
       "SourceId": "Games",
       "SourceType": "Discovered",
@@ -83,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\games1.jpg",
+      "SourceId": "Games",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\",
+      "BasePath": "_content/Games",
+      "RelativePath": "games1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\games1.jpg"
     },
     {
       "Identity": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\js\\site.js",

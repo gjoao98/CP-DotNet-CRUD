@@ -1,5 +1,6 @@
 ﻿using Games.Models;
 using Microsoft.AspNetCore.Mvc;
+using static Azure.Core.HttpHeader;
 
 namespace Games.Controllers
 {
@@ -7,9 +8,26 @@ namespace Games.Controllers
     {
         private static IList<Game> _lista = new List<Game>();
         private static int _id = 0;
-        public IActionResult Index()
+
+        [HttpGet]
+        public IActionResult Index(String title)
         {
-            return View(_lista);
+
+            if (string.IsNullOrEmpty(title))
+            {
+                return View(_lista);
+            } else
+            {
+                var list = new List<Game>();
+                foreach (var item in _lista)
+                {
+                    if(item.Title.Contains(title))
+                    {
+                        list.Add(item);
+                    }
+                }
+                return View(list);
+            }
         }
 
         [HttpGet]
@@ -39,7 +57,8 @@ namespace Games.Controllers
         {
             var index = _lista.ToList().FindIndex(v => v.Id == game.Id);
             _lista[index] = game;
-            return RedirectToAction("Index");
+            TempData["mensagem"] = "Jogo alterado com sucesso!";
+            return View();
         }
 
         [HttpPost]

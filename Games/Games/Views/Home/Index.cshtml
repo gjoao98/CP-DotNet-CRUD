@@ -3,6 +3,13 @@
 }
 
 <div class="text-center">
-    <h2>Loja de Jogos</h2>
-    <a asp-action="Index" asp-controller="Game">Jogos</a>
+    <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+        <img class="max-img" src="~/games1.jpg" alt="Imagem Responsiva" />
+    </div>
 </div>
+
+<style>
+    .max-img {
+        max-height: 100vh; /* Define a altura máxima da imagem */
+    }
+</style>

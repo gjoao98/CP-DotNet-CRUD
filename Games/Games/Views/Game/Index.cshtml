@@ -4,9 +4,26 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<alert texto="@TempData["mensagem"]"></alert>
 
-<a asp-action="cadastrar">Cadastrar Jogos</a>
+<div class="card">
+    <div class="card-header">Pesquisar Jogos</div>
+    <div class="card-body">
+        <form asp-action="Index" asp-controller="Game" method="get">
+            <div class="row">
+                <div class="col-4">
+                    <a asp-action="Cadastrar" asp-controller="Game" class="btn btn-success">Cadastro de Jogos</a>
+                </div>
+                <div class="col-4">
+                    <input type="text" name="title" class="form-control" placeholder="Buscar"/>
+                </div>
+                <div class="col-4">
+                    <button class="btn btn-primary" type="submit">Pesquisar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 
 <table class="table">
     <thead>
@@ -14,7 +31,7 @@
             <th>Id</th>
             <th>Title</th>
             <th>Developer</th>
-            <th>Publisher/th>
+            <th>Publisher</th>
             <th>Category</th>
             <th>Release Date</th>
             <th>Genre</th>

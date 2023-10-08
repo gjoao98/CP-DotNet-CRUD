@@ -5,9 +5,11 @@
 
 <h1>Editar</h1>
 
-<a asp-action="index">Games</a>
+<a asp-action="index"><botao texto="Catálogo de Jogos"></botao></a>
+
+<alert texto="@TempData["mensagem"]"></alert>
 
 <form asp-action="editar">
     <partial name="_Form" />
-    <button class="btn btn-outline-primary">Editar</button>
+    <botao texto="Editar"></botao>
 </form>

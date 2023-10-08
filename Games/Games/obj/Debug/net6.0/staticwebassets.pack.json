@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\del.png",
+      "PackagePath": "staticwebassets\\del.png"
+    },
+    {
+      "Id": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\edit.png",
+      "PackagePath": "staticwebassets\\edit.png"
+    },
+    {
       "Id": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\games1.jpg",
+      "PackagePath": "staticwebassets\\games1.jpg"
     },
     {
       "Id": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\wwwroot\\js\\site.js",
