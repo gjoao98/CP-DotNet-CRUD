@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\Games.csproj": {}
+    "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\Games.csproj": {
+    "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\Games.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games.csproj",
         "projectName": "Games",
-        "projectPath": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\Games.csproj",
+        "projectPath": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games.csproj",
         "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

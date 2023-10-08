@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Games
 build_property.RootNamespace = Games
-build_property.ProjectDir = C:\Users\Gabriel\Desktop\FIAP\Docs 2 SEM\.NET\CP-DotNet-CRUD\Games\Games\
+build_property.ProjectDir = C:\Users\Gabriel\Desktop\FIAP\Docs 2 SEM\.NET\CP-DotNet-CRUD\Games\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Gabriel\Desktop\FIAP\Docs 2 SEM\.NET\CP-DotNet-CRUD\Games\Games
+build_property.MSBuildProjectDirectory = C:\Users\Gabriel\Desktop\FIAP\Docs 2 SEM\.NET\CP-DotNet-CRUD\Games
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/Game/Cadastrar.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/Game/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxDYWRhc3RyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/Game/Editar.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/Game/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/Game/Index.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/Game/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/Game/_Form.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/Game/_Form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxfRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/Home/Index.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/Shared/Error.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/_ViewImports.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/_ViewStart.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Games/Views/Shared/_Layout.cshtml]
+[C:/Users/Gabriel/Desktop/FIAP/Docs 2 SEM/.NET/CP-DotNet-CRUD/Games/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tqaoj9jug8

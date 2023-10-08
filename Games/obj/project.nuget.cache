@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mPxjE1+c8sBCZLdAQBp6IJbtJ9wTMtx/I4mFQyZ4bL6QIfgz4kpG/IOPbo5+yeEuqvrn008V9500GoHMO8LdGw==",
+  "dgSpecHash": "TI9Uw/rU6prV/+Zi9PutVicBA3rlaE3MQ+5XBxiX0ey8Z0MgfwOOJeyr6pVavjRHKCsUZj68HSY7l6VjP1r5tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games\\Games.csproj",
+  "projectFilePath": "C:\\Users\\Gabriel\\Desktop\\FIAP\\Docs 2 SEM\\.NET\\CP-DotNet-CRUD\\Games\\Games.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
