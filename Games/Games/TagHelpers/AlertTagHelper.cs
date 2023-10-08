@@ -5,7 +5,6 @@ namespace Games.TagHelpers
     public class AlertTagHelper: TagHelper
     {
         public string? Texto { get; set; }
-
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
             if (!string.IsNullOrEmpty(Texto))

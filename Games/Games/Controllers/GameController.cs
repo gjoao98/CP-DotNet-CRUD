@@ -39,7 +39,6 @@ namespace Games.Controllers
         {
             var index = _lista.ToList().FindIndex(v => v.Id == game.Id);
             _lista[index] = game;
-            TempData["mensagem"] = "Jogo atualizado com sucesso!";
             return RedirectToAction("Index");
         }
 

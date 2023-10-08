@@ -5,12 +5,7 @@
 
 <h1>Editar</h1>
 
-@if (TempData["mensagem"] != null)
-{
-    <div class="alert alert-success">
-        @TempData["mensagem"]
-    </div>
-}
+<a asp-action="index">Games</a>
 
 <form asp-action="editar">
     <partial name="_Form" />
