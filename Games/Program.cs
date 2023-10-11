@@ -7,11 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //Recuperar String de conexão do arquivo appsettings.json
-//var conn = builder.Configuration.GetConnectionString("conexao");
+var conn = builder.Configuration.GetConnectionString("SQLSERVER_CONN_STRING");
 
 //Configurar a injeção de dependência do DbContext
-//builder.Services.AddDbContext<GameStoreContext>(op => op.UseSqlServer(conn));
-var connection = String.Empty;
+builder.Services.AddDbContext<GameStoreContext>(op => op.UseSqlServer(conn));
+
+/*var connection = String.Empty;
 if (builder.Environment.IsDevelopment())
 {
     builder.Configuration.AddEnvironmentVariables().AddJsonFile("appsettings.Development.json");
@@ -23,7 +24,7 @@ else
 }
 
 builder.Services.AddDbContext<GameStoreContext>(options =>
-    options.UseSqlServer(connection));
+    options.UseSqlServer(connection));*/
 
 
 var app = builder.Build();
