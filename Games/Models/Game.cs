@@ -1,18 +1,25 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Games.Models
 {
+    [Table("Tb_Games")]
     public class Game
     {
-        public int Id { get; set; }
+        [Column("Id"), HiddenInput]
+        public int GameId { get; set; }
+        [Required]
         public string? Title { get; set; }
+        [Required]
         public string? Developer { get; set; }
         public string? Publisher { get; set; }
+        [Required]
         public string? Category { get; set; }
 
-        [Column("Dt_Lancamento"), Display(Name = "Release Date"), DataType(DataType.Date)]
+        [Display(Name = "Release Date"), DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
+        [Required]
         public Genre Genre { get; set; }
         public Review Review { get; set; }
         public bool FreeToPlay { get; set; }

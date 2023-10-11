@@ -3,13 +3,14 @@
     ViewData["Title"] = "Editar";
 }
 
-<h1>Editar</h1>
+<h1>Editar o jogo: @Model.Title </h1>
 
 <a asp-action="index"><botao texto="Catálogo de Jogos"></botao></a>
 
 <alert texto="@TempData["mensagem"]"></alert>
 
 <form asp-action="editar">
+    <input asp-for="GameId" />
     <partial name="_Form" />
     <botao texto="Editar"></botao>
 </form>

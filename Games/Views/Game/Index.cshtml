@@ -28,7 +28,7 @@
 <table class="table">
     <thead>
         <tr>
-            <th>Id</th>
+            <th>GameId</th>
             <th>Title</th>
             <th>Developer</th>
             <th>Publisher</th>
@@ -45,7 +45,7 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.Id</td>
+                <td>@item.GameId</td>
                 <td>@item.Title</td>
                 <td>@item.Developer</td>
                 <td>@item.Publisher</td>
@@ -55,9 +55,9 @@
                 <td>@item.Review</td>
                 <td>@(item.FreeToPlay ? "Sim" : "Não")</td>
                 <td>
-                    <a asp-action="editar" asp-route-id="@item.Id" class="btn btn-primary">Editar</a>
+                    <a asp-action="editar" asp-route-id="@item.GameId" class="btn btn-primary">Editar</a>
 
-                    <button onclick="churros.value = @item.Id" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button onclick="gameId.value = @item.GameId" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Excluir
                     </button>
                 </td>
@@ -79,7 +79,7 @@
             </div>
             <div class="modal-footer">
                 <form asp-action="remover">
-                    <input type="hidden" name="id" id="churros" />
+                    <input type="hidden" name="id" id="gameId" />
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
                     <button type="submit" class="btn btn-danger">Sim</button>
                 </form>

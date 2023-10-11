@@ -1,4 +1,5 @@
-﻿using Games.Models;
+﻿using Games.Database;
+using Games.Models;
 using Microsoft.AspNetCore.Mvc;
 using static Azure.Core.HttpHeader;
 
@@ -6,20 +7,27 @@ namespace Games.Controllers
 {
     public class GameController : Controller
     {
+        private GameStoreContext _context;
         private static IList<Game> _lista = new List<Game>();
         private static int _id = 0;
+
+        public GameController(GameStoreContext context)
+        {
+            _context = context;
+        }
 
         [HttpGet]
         public IActionResult Index(String title)
         {
+            var lista = _context.Games.ToList();
 
             if (string.IsNullOrEmpty(title))
             {
-                return View(_lista);
+                return View(lista);
             } else
             {
                 var list = new List<Game>();
-                foreach (var item in _lista)
+                foreach (var item in lista)
                 {
                     if(item.Title.Contains(title))
                     {
@@ -39,8 +47,8 @@ namespace Games.Controllers
         [HttpPost]
         public IActionResult Cadastrar(Game game)
         {
-            game.Id = ++_id;
-            _lista.Add(game);
+            _context.Games.Add(game);
+            _context.SaveChanges();
             TempData["mensagem"] = "Jogo cadastrado com sucesso!";
             return RedirectToAction("Cadastrar");
         }
@@ -48,23 +56,26 @@ namespace Games.Controllers
         [HttpGet]
         public IActionResult Editar(int id)
         {
-            var game = _lista.First(v => v.Id == id);
+            var game = _context.Games.Find(id);
             return View(game);
         }
 
         [HttpPost]
         public IActionResult Editar(Game game)
         {
-            var index = _lista.ToList().FindIndex(v => v.Id == game.Id);
-            _lista[index] = game;
+            _context.Games.Update(game);
+            _context.SaveChanges();
             TempData["mensagem"] = "Jogo alterado com sucesso!";
-            return View();
+            return RedirectToAction("Index");
         }
 
-        [HttpPost]
+        [HttpPost, ActionName("Remover")]
         public IActionResult Remover(int id)
         {
-            _lista.Remove(_lista.First(v => v.Id == id));
+            var game = _context.Games.Find(id);
+
+            _context.Games.Remove(game);
+            _context.SaveChanges();
             TempData["mensagem"] = "Jogo removido!";
             return RedirectToAction("Index");
         }
