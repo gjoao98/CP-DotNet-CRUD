@@ -41,4 +41,4 @@ CREATE TABLE Tb_Games (
 
 ```
 
-link do vídeo: 
+link do vídeo: https://youtu.be/eIW1Gv2-iVU
