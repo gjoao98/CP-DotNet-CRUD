@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //Recuperar String de conexão do arquivo appsettings.json
-var conn = builder.Configuration.GetConnectionString("SQLSERVER_CONN_STRING");
+var conn = builder.Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING");
 
 //Configurar a injeção de dependência do DbContext
 builder.Services.AddDbContext<GameStoreContext>(op => op.UseSqlServer(conn));
